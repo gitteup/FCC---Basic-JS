@@ -1,1 +1,1 @@
-# FCC---Basic-JS
+# FCC-Basic-JS
