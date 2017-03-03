@@ -1,3 +1,5 @@
+push-pop-shift-unshift 
+
 // Example
 var ourArray = ["Stimpson", "J", "cat"];
 ourArray.push(["happy", "joy"]); 
