@@ -22,7 +22,7 @@ function sequentialSizes(val) {
       break;
       
      default:
-      answer = "shizzle";
+      answer = "Shizzle";
      }
   
   // Only change code above this line  
