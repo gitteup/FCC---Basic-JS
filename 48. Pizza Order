@@ -19,7 +19,7 @@ function getTotal() {
   return getSubTotal(orderCount) + getTax();
 }
 
-takeOrder('Thin Crust', 'topped with Bacon');
+takeOrder('Thin Crust', 'topped with Bud');
 takeOrder('Super Crust', 'topped with Shrooms');
 takeOrder('Duper Crust', 'topped with Peppers');
 
