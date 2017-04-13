@@ -1,0 +1,18 @@
+var orderCount = 0;
+
+function takeOrder(crustType, topping) {
+  
+  orderCount = orderCount + 1;
+  
+  console.log('Order:' + ' ' + crustType + ' ' + 'pizza' + ' ' + topping);
+}
+
+function getSubTotal(itemCount) {
+  return itemCount * 7.5;
+}
+
+takeOrder('Thin Crust', 'topped with Bacon');
+takeOrder('Super Crust', 'topped with Shroom');
+takeOrder('Duper Crust', 'topped with Peppers');
+
+console.log(getSubTotal(orderCount));
