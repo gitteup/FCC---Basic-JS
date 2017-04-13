@@ -11,8 +11,19 @@ function getSubTotal(itemCount) {
   return itemCount * 7.5;
 }
 
+function getTax() {
+  return getSubTotal(orderCount) * 0.06;
+}
+
+function getTotal() {
+  return getSubTotal(orderCount) + getTax();
+}
+
 takeOrder('Thin Crust', 'topped with Bacon');
-takeOrder('Super Crust', 'topped with Shroom');
+takeOrder('Super Crust', 'topped with Shrooms');
 takeOrder('Duper Crust', 'topped with Peppers');
 
+
 console.log(getSubTotal(orderCount));
+
+console.log(getTotal());
