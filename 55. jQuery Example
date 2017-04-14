@@ -48,7 +48,7 @@
 
 </html>
 
-main.js
+***main.js***
 
 function main() {
 	$('.skillset').hide();
