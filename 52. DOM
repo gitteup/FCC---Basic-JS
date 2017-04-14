@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='css/styles.css'>
+</head>
+		<script src='js/main.js'></script>
+<body>
+
+  <h1>Proficient in:</h1>
+  <div class='skillset'>
+  
+main.js  
+var skillset = document.getElementsByClassName('skillset');
+alert(skillset);
