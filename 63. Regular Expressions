@@ -48,6 +48,20 @@ var expression = /\s+/g;  // Change this line
 // This code counts the matches of expression in testString
 var spaceCount = testString.match(expression).length;
 
+//#4 (non-white-spaces)
+
+// Setup
+var testString = "How many non-space characters are there in this sentence?";
+
+// Only change code below this line.
+
+var expression = /\S/g;  // Change this line
+
+// Only change code above this line
+
+// This code counts the matches of expression in testString
+var nonSpaceCount = testString.match(expression).length;
+
 //NOTES
 
 // - The whitespace characters are " " (space), \r (the carriage return), \n (newline), \t (tab), and \f (the form feed).
