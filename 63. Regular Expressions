@@ -35,3 +35,10 @@ var expression = /\d+/g;  // Change this line
 var digitCount = testString.match(expression).length;
 
 //#3
+
+
+//NOTES
+
+// - The whitespace characters are " " (space), \r (the carriage return), \n (newline), \t (tab), and \f (the form feed).
+
+// - All ditigs Global: /\d+/g
