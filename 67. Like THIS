@@ -1,0 +1,7 @@
+// Like THIS and Like That
+
+var user = function(name){
+	this.name = name;
+};
+var Joe = new user("Joe");
+console.log(Joe.name);
