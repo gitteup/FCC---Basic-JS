@@ -1,0 +1,7 @@
+Centameter to Inches
+
+function cm2in(x) {
+  var convert = x/2.54;
+  return Math.round(convert) + '"';
+}
+cm2in(12);
