@@ -1,0 +1,15 @@
+//object literal
+
+var car = {
+	ownersName: "Joe Dirt",
+	chasisNo: "451-265-458",
+	engineNo: "656-556-569-8",
+	makeName: "Cam",
+	registrationDate: "4 July 2020",
+	vehiclePrice: 14000,
+	color: "Burgundy",
+	yearOfManufacture: 2018
+}
+
+delete car.yearOfManufacture;
+console.log(car);
