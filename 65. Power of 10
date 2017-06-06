@@ -1,0 +1,6 @@
+//4 to the power of 10
+
+var power = function(x,y){
+  return Math.pow(x,y) + x;
+};
+power(4,10)
